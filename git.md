@@ -10,6 +10,14 @@
 ## Set git's default editor to vim
 ```git config --global core.editor "vim"```
 
+## Merge a branch into `main`.
+```
+git switch main
+git pull origin main
+git merge <branch_name>
+git push origin main
+```
+
 ## Rebase when local main is behind remote main (branch divergence).
 ```
 git fetch origin
