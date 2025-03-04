@@ -9,3 +9,11 @@
 
 ## Set git's default editor to vim
 ```git config --global core.editor "vim"```
+
+## Rebase when local main is behind remote main (branch divergence).
+```
+git fetch origin
+git rebase origin/main
+git push origin main --force-with-lease
+```
+NOTE: `--force-with-lease` prevents overwriting any new changes added by someone else.
