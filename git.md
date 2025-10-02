@@ -1,5 +1,5 @@
 ## Generating new ssh key for git
-1. ```ssh-keygen -t rsa -C "loganmoreno.cs@gmail.com"```
+1. ```ssh-keygen -t rsa -C "youremail@gmail.com"```
 2. Press enter for everything
 3. ```cat ~/.ssh/id_rsa.pub```
 4. Copy everything
